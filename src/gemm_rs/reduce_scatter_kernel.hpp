@@ -24,7 +24,7 @@
 #include <ostream>
 #include <type_traits>
 #include <cuda_runtime_api.h>
-#include <cuda/std/atomic>
+#include <cuda/atomic>
 #include <utility>
 #include "cutlass/detail/helper_macros.hpp"
 #ifdef FLUX_SHM_USE_NVSHMEM

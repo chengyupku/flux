@@ -45,7 +45,7 @@
 #include "cutlass/gemm/kernel/gemm_transpose_operands.h"
 #include <ctime>
 #include <type_traits>
-#include <cuda/std/atomic>
+#include <cuda/atomic>
 #include "ag_scatter_grouped_problem_visitor.hpp"
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
